@@ -1,0 +1,13 @@
+<h1>About Us</h1>
+<hr />
+
+<?php 
+	foreach ($this->view->data as $index => $info) {
+		echo $info['title'];
+		echo '<br />';
+		echo $info['description'];
+		echo '<hr />';
+	}
+
+
+ ?>
